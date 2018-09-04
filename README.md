@@ -19,7 +19,7 @@ docker run --rm -it \
 ## Daemon mode
 
 ```
-docker run -d --name yandex.disk \
+docker run -d --name yandex.disk --restart always \
            -v /opt/yandex.disk/config:/root/.config/ \
            -v /opt/yandex.disk/data:/root/Yandex.Disk \
            ruslanys/yandex.disk

@@ -23,4 +23,4 @@ docker run -d --name yandex.disk \
            -v /opt/yandex.disk/config:/root/.config/ \
            -v /opt/yandex.disk/data:/root/Yandex.Disk \
            ruslanys/yandex.disk
-```i
+```

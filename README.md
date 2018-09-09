@@ -16,7 +16,7 @@
 
 ```
 docker run --rm -it \
-           -v /opt/yandex.disk/config:/root/.config/ \
+           -v /opt/yandex.disk/config:/root/.config/yandex.disk \
            -v /opt/yandex.disk/data:/root/Yandex.Disk \
            ruslanys/yandex.disk yandex-disk setup
 ```

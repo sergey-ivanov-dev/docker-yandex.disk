@@ -26,4 +26,4 @@ RUN apt-get update \
     && mkdir /root/Yandex.Disk
 
 ENTRYPOINT ["yandex-disk"]
-CMD ["start", "--no-daemon", "--dir=/root/Yandex.Disk"]
+CMD ["start", "--no-daemon", "--dir=/root/Yandex.Disk"", "--exclude-dirs=${EXCL_DIRS}"]

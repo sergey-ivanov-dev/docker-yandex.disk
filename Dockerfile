@@ -1,6 +1,7 @@
 FROM ubuntu:22.04
 
-MAINTAINER Ruslan Molchanov <ruslanys@gmail.com>
+ARG EXCL_DIRS=""
+ENV EXCL_DIRS $EXCL_DIRS
 
 RUN apt-get update \
 
